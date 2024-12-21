@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Text";
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Rectangle.png);
+    background-size: cover; 
+    background-position: center; 
+}
+header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text    {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.timer {
+    width: 55%;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.time-box {
+    width: 148px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.number {
+    width: 148px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FB5E84;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 71px; 
+    letter-spacing: -2.4px;
+    background-image: url(./Group\ 2.svg);
+}
+.time-box p {
+    color: #8385A9;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5.919px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer {
+    width: 100%;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(./Group\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+}
+.social-media {
+    height: 120px;
+    cursor: pointer;
+}
