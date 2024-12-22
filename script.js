@@ -6,7 +6,7 @@ function calculateTime() {
     const now = new Date();
     const remainingTime = newYear - now; 
     
-    // დარჩენილ; დრო გადამყავს დღეებში, საათებში, წუთებში და წამებში
+// დარჩენილ; დრო გადამყავს დღეებში, საათებში, წუთებში და წამებში
     const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
     const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
