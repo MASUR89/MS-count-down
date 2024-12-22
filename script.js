@@ -17,3 +17,11 @@ function calculateTime() {
     document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
     document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
 }
+const socialMedia = document.querySelector('.icons');
+    socialMedia.addEventListener('mouseover', () => {
+        socialMedia.src = './Group 6.svg';
+    });
+
+    socialMedia.addEventListener('mouseout', () => {
+        socialMedia.src = './group 6.png';
+    });
